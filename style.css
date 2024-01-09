@@ -17,6 +17,7 @@ body {
 .container {
   position: relative;
   background-color: var(--ligh-pink);
+  margin-bottom: 20px;
 }
 
 .faq-acordion {
@@ -66,4 +67,14 @@ body {
   color: var(--grayish-purple);
   margin: 0 22px 8px 22px;
   display: none;
+}
+
+@media (max-width: 480px) {
+  .faq-acordion-container {
+    width: 320px;
+  }
+
+  .answer {
+    margin-top: 10px;
+  }
 }
