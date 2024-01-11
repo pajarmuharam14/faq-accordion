@@ -61,12 +61,17 @@ body {
 
 .question img {
   margin: 17px 20px 17px 0;
+  cursor: pointer;
 }
 
 .answer {
   color: var(--grayish-purple);
   margin: 0 22px 8px 22px;
   display: none;
+}
+
+.active {
+  display: block;
 }
 
 @media (max-width: 480px) {
